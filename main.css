@@ -17,3 +17,54 @@ a:focus-visible {
 
 }
 
+p { 
+    
+    color: #17324d;
+
+}            
+
+/* type: every paragraph */
+
+.intro {
+    
+    font-weight: 700;
+
+}         
+
+/* class: matching elements */
+
+#page-title {
+    
+    font-size: 2rem; 
+
+}     
+
+/* ID: the matching unique element */
+
+article p { 
+    
+    line-height: 1.5;
+
+}  
+
+/* every descendant paragraph */
+
+article > p {
+    
+    margin-bottom: 1rem;
+
+} 
+
+/* direct child paragraphs */
+
+a:hover, a:focus-visible {
+    
+    text-decoration-thickness: 0.15em;
+
+}
+
+.intro::first-letter {
+    
+    font-size: 1.25em;
+
+}
